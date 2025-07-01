@@ -15,8 +15,8 @@ LIF artificially reconstructs how neurons fire across a membrane threshold, crea
 * t0, t1, t2: = spike times
 * w = synaptic weight (neuron receives a spike, V increases by w)
 * Vt = firing threshold
-[ADD IMAGE]
+<p align="center">
+  <img src="images/1d_simulation.png" alt="1D simulation snapshot" width="300px">
+</p>
 General model: if voltage is greater than the firing threshold, fire a spike, reset
 
-[ADD IMAGE]
-snnTorch’s recursive representation of the LIF neuron.
