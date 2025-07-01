@@ -37,5 +37,7 @@ Models neurons arranged in a two-dimensional grid.
 * input spikes = external inputs to neurons, possibly different for each neuron
 * w = synaptic weights (influence from neighboring neurons’ spikes)
 * Vt i,j = dynamic firing threshold
-
+<p align="center">
+  <img src="images/2D_LIF.png" alt="1D simulation snapshot" width="300px">
+</p>
 General model: At each time step, if V i,j exceeds Vt i,j -> neuron (i, j) fires a spike, resets its membrane potential, and updates its threshold dynamically. Membrane potentials also decay exponentially and integrate inputs from neighbors.
