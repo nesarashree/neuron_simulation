@@ -39,5 +39,5 @@ Models neurons arranged in a two-dimensional grid. At each time step, if `V i,j 
 * w = synaptic weights (influence from neighboring neurons’ spikes)
 * Vt i,j = dynamic firing threshold
 <p align="center">
-  <img src="images/2D.png" alt="1D simulation snapshot" width="350px">
+  <img src="images/2D.png" alt="1D simulation snapshot" width="330px">
 </p>
