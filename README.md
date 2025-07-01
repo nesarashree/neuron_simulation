@@ -33,11 +33,11 @@ Models a single neuron’s membrane potential V over time. If voltage V is great
 ## 2D LIF SIMULATION
 Models neurons arranged in a two-dimensional grid. At each time step, if `V i,j > Vt i,j` then `neuron (i, j)` fires a spike, resets its membrane potential, and updates its threshold dynamically. Membrane potentials also decay exponentially and integrate inputs from neighbors.
 
-* V i,j = membrane potential of neuron at position (i, j)
+* `V i,j` = membrane potential of neuron at position (i, j)
 * tau = time constant
 * input spikes = external inputs to neurons, possibly different for each neuron
 * w = synaptic weights (influence from neighboring neurons’ spikes)
-* Vt i,j = dynamic firing threshold
+* `Vt i,j` = dynamic firing threshold
 <p align="center">
   <img src="images/2D.png" alt="1D simulation snapshot" width="330px">
 </p>
