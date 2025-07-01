@@ -1,4 +1,4 @@
-# Simulatig Leaky Integrate and Fire (LIF) Neurons
+# Simulating Leaky Integrate and Fire (LIF) Neurons
 
 <p align="center">
   <img src="images/unnamed.png" alt="Spike image" width="500px" />
