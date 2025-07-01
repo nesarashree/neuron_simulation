@@ -30,3 +30,6 @@ General model: if voltage is greater than the firing threshold, fire a spike, re
   <img src="images/spike.png" alt="Spike image" width="350px" />
 </p>
 
+## 2D LIF SIMULATION
+
+
