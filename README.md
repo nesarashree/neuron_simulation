@@ -4,8 +4,7 @@
   <img src="images/unnamed.png" alt="Spike image" width="500px" />
 </p>
 
-In biological neurons, the electrical action potential initiated in the cell body travels along a presynaptic cell axon & jumps to a postsynaptic cell (synapse). Spikes are the emergence of action potentials. To visualize these spikes, I ran a simulation graphing membrane potential wrt time. Neuron behavior is mathematically modeled by the Leaky Integrate-and-Fire (LIF) with the following parameters:
-
+In biological neurons, an electrical action potential originates in the cell body and propagates along the axon of the presynaptic neuron, ultimately transmitting a signal to the postsynaptic neuron across a synapse. These action potentials appear as discrete spikes. To visualize this spiking behavior, I simulated the membrane potential over time. The neuron’s activity is modeled mathematically using the Leaky Integrate-and-Fire (LIF) model, characterized by the following parameters:
 * resting potential
 * reset voltage
 * firing threshold
