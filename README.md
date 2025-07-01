@@ -41,4 +41,6 @@ Models neurons arranged in a two-dimensional grid. At each time step, if `V i,j 
   <img src="images/2D.png" alt="1D simulation snapshot" width="330px">
 </p>
 
-*Courtesy Dan Goodman, COSYNE 2022*
+For a comprehensive overview of the simulation code and its logic, please refer to the .ipynb notebook files in this repository, which include detailed inline documentation.
+
+*Theory courtesy Dan Goodman, COSYNE 2022*
