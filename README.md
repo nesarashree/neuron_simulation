@@ -41,3 +41,5 @@ Models neurons arranged in a two-dimensional grid. At each time step, if `V i,j 
 <p align="center">
   <img src="images/2D.png" alt="1D simulation snapshot" width="330px">
 </p>
+
+*Courtesy Dan Goodman, COSYNE 2022*
