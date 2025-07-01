@@ -16,7 +16,7 @@ In biological neurons, the electrical action potential initiated in the cell bod
 LIF artificially reconstructs how neurons fire across a membrane threshold, creating spikes (or action potentials) that then serve as neural (network!) signals.
 
 ## 1D LIF SIMULATION
-1D LIF simulation:
+Models a single neuron’s membrane potential V over time.
 * V = membrane potential
 * tau = time constant (how quickly the neuron integrates inputs)
 * t0, t1, t2: = spike times
@@ -25,11 +25,17 @@ LIF artificially reconstructs how neurons fire across a membrane threshold, crea
 <p align="center">
   <img src="images/1d_simulation.png" alt="1D simulation snapshot" width="300px">
 </p>
-General model: if voltage is greater than the firing threshold, fire a spike, reset
+General model: If voltage is greater than the firing threshold, fire a spike, reset
 <p>
   <img src="images/spike.png" alt="Spike image" width="350px" />
 </p>
 
 ## 2D LIF SIMULATION
+Models neurons arranged in a two-dimensional grid.
+* V i,j = membrane potential of neuron at position (i, j)
+* tau = time constant
+* input spikes = external inputs to neurons, possibly different for each neuron
+* w = synaptic weights (influence from neighboring neurons’ spikes)
+* Vt i,j = dynamic firing threshold
 
-
+General model: At each time step, if V i,j exceeds Vt i,j -> neuron (i, j) fires a spike, resets its membrane potential, and updates its threshold dynamically. Membrane potentials also decay exponentially and integrate inputs from neighbors.
