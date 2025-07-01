@@ -1,14 +1,18 @@
 # Leaky Integrate and Fire Neurons
+
 <p align="center">
   <img src="images/unnamed.png" alt="Spike image" width="500px" />
 </p>
+
 In biological neurons, the electrical action potential initiated in the cell body travels along a presynaptic cell axon & jumps to a postsynaptic cell (synapse). Spikes are the emergence of action potentials. To visualize these spikes, I ran a simulation graphing membrane potential wrt time. Neuron behavior is mathematically modeled by the Leaky Integrate-and-Fire (LIF) with the following parameters:
+
 * resting potential
 * reset voltage
 * firing threshold
 * membrane resistance
 * membrane time-scale
 * absolute refractory period
+
 LIF artificially reconstructs how neurons fire across a membrane threshold, creating spikes (or action potentials) that then serve as neural (network!) signals.
 
 ## 1D LIF SIMULATION
