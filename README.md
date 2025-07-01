@@ -20,3 +20,7 @@ LIF artificially reconstructs how neurons fire across a membrane threshold, crea
 </p>
 General model: if voltage is greater than the firing threshold, fire a spike, reset
 
+<p align="center">
+  <img src="images/spike.png" alt="Spike image" width="350px" />
+</p>
+
